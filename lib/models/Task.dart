@@ -1,8 +1,4 @@
-import 'dart:convert';
-import 'dart:ui';
-
-import 'package:flutter_mobile_app/models/Todo.dart';
-import 'package:flutter_mobile_app/utils/hex_color.dart';
+import 'Todo.dart';
 
 class Task {
   int id;

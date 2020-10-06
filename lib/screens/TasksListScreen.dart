@@ -1,16 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter_mobile_app/bloc/tasks_bloc.dart';
-import 'package:flutter_mobile_app/utils/generate_random_color.dart';
 import 'package:provider/provider.dart';
 
+import '../bloc/tasks_bloc.dart';
 import '../components/AppStateNotifier.dart';
 import '../components/CardsList.dart';
 import '../models/Task.dart';
-import '../models/Todo.dart';
-import '../theme.dart';
-import 'AddTaskListScreen.dart';
+import '../utils/generate_random_color.dart';
 
 class TasksListScreen extends StatefulWidget {
   @override

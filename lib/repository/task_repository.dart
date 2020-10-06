@@ -1,5 +1,5 @@
-import 'package:flutter_mobile_app/dao/task_dao.dart';
-import 'package:flutter_mobile_app/models/Task.dart';
+import '../dao/task_dao.dart';
+import '../models/Task.dart';
 
 class TaskRepository {
   final taskTodo = TaskDao();

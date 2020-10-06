@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_mobile_app/bloc/tasks_bloc.dart';
-import 'package:flutter_mobile_app/components/TaskCard.dart';
-import 'package:flutter_mobile_app/models/Task.dart';
+
+import '../bloc/tasks_bloc.dart';
+import '../models/Task.dart';
+import 'TaskCard.dart';
 
 class CardsList extends StatelessWidget {
   // init tasks Bloc

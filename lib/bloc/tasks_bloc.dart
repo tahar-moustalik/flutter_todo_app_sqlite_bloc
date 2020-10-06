@@ -1,9 +1,8 @@
 import 'dart:async';
 
-import 'package:flutter_mobile_app/bloc/bloc.dart';
-import 'package:flutter_mobile_app/repository/task_repository.dart';
-
 import '../models/Task.dart';
+import '../repository/task_repository.dart';
+import 'bloc.dart';
 
 class TasksBloc implements Bloc {
   final _taskRespository = TaskRepository();

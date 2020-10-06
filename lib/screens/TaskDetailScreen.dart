@@ -1,9 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_mobile_app/bloc/tasks_bloc.dart';
-import 'package:flutter_mobile_app/screens/TasksListScreen.dart';
 import 'package:provider/provider.dart';
 
+import '../bloc/tasks_bloc.dart';
 import '../bloc/todos_bloc.dart';
 import '../components/AppStateNotifier.dart';
 import '../models/Task.dart';

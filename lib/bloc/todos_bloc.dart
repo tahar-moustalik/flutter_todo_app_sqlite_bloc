@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:flutter_mobile_app/bloc/bloc.dart';
-import 'package:flutter_mobile_app/models/Todo.dart';
-import 'package:flutter_mobile_app/repository/todo_repository.dart';
+import '../models/Todo.dart';
+import '../repository/todo_repository.dart';
+import 'bloc.dart';
 
 class TodosBloc implements Bloc {
   final _todoRepository = TodoRepository();

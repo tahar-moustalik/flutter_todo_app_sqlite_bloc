@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_mobile_app/theme.dart';
 
-import '../styles.dart';
+import '../theme.dart';
 
 class CardTaskItem extends StatelessWidget {
   final String text;

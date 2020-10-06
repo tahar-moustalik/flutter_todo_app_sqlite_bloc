@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_mobile_app/components/CardTaskItem.dart';
-import 'package:flutter_mobile_app/models/Todo.dart';
+
+import '../models/Todo.dart';
+import 'CardTaskItem.dart';
 
 class CardTasksList extends StatelessWidget {
   final List<Todo> tasks;

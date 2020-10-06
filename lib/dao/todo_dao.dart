@@ -1,7 +1,5 @@
-import 'package:flutter_mobile_app/models/Todo.dart';
-
 import '../database/database.dart';
-import '../models/Task.dart';
+import '../models/Todo.dart';
 
 class TodoDao {
   final dbProvider = DatabaseProvider.databaseProvider;

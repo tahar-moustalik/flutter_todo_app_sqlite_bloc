@@ -1,9 +1,7 @@
-import 'dart:math';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_mobile_app/bloc/tasks_bloc.dart';
 
+import '../bloc/tasks_bloc.dart';
 import '../models/Task.dart';
 import '../screens/TaskDetailScreen.dart';
 import '../utils/hex_color.dart';

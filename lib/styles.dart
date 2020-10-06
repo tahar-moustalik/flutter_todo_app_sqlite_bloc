@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:flutter_mobile_app/theme.dart';
 
 class Styles {
   static const header = const TextStyle(
